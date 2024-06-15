@@ -38,3 +38,174 @@ Runtime Error
 [0m14:57:36.942255 [debug] [MainThread]: Command `dbt run` failed at 14:57:36.942176 after 0.01 seconds
 [0m14:57:36.942412 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102e136b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1057c3b60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1069b6c60>]}
 [0m14:57:36.942573 [debug] [MainThread]: Flushing usage events
+[0m16:56:26.839747 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108664a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1086a5750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1086a60d0>]}
+
+
+============================== 16:56:26.843300 | 83964a61-4230-4394-90bd-eacc272ea875 ==============================
+[0m16:56:26.843300 [info ] [MainThread]: Running with dbt=1.8.2
+[0m16:56:26.843654 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/Users/alex/.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init solution', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m16:56:26.847888 [debug] [MainThread]: Starter project path: /Users/alex/.pyenv/versions/3.11.1/lib/python3.11/site-packages/dbt/include/starter_project
+[0m16:56:26.852620 [info ] [MainThread]: 
+Your new dbt project "solution" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:56:26.852964 [info ] [MainThread]: Setting up your profile.
+[0m16:56:26.854201 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No adapters available. Learn how to install an adapter by going to https://docs.getdbt.com/docs/connect-adapters#install-using-the-cli
+[0m16:56:26.859080 [debug] [MainThread]: Resource report: {"command_name": "init", "command_wall_clock_time": 0.04950696, "process_user_time": 0.582598, "process_kernel_time": 0.07167, "process_mem_max_rss": "101187584", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m16:56:26.859438 [debug] [MainThread]: Command `dbt init` failed at 16:56:26.859388 after 0.05 seconds
+[0m16:56:26.859677 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1086b7290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1086a64d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10431a950>]}
+[0m16:56:26.859872 [debug] [MainThread]: Flushing usage events
+[0m16:57:38.699864 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10881ea10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10883a1d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10883b090>]}
+
+
+============================== 16:57:38.702425 | f3efdfa1-80ab-4d7a-98ad-599393af1204 ==============================
+[0m16:57:38.702425 [info ] [MainThread]: Running with dbt=1.8.2
+[0m16:57:38.702749 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': '/Users/alex/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init solution', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m16:57:38.706683 [debug] [MainThread]: Starter project path: /Users/alex/.pyenv/versions/3.11.1/lib/python3.11/site-packages/dbt/include/starter_project
+[0m16:57:38.709835 [info ] [MainThread]: 
+Your new dbt project "solution" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:57:38.710078 [info ] [MainThread]: Setting up your profile.
+[0m16:58:25.303690 [info ] [MainThread]: Profile solution written to /Users/alex/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m16:58:25.306701 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 46.636715, "process_user_time": 2.538817, "process_kernel_time": 0.366187, "process_mem_max_rss": "161988608", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m16:58:25.307323 [debug] [MainThread]: Command `dbt init` succeeded at 16:58:25.307230 after 46.64 seconds
+[0m16:58:25.307685 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107fb5f90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108847f90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108847890>]}
+[0m16:58:25.308031 [debug] [MainThread]: Flushing usage events
+[0m17:00:10.074379 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1087c2850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108ba6850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108ba71d0>]}
+
+
+============================== 17:00:10.076885 | a1e69756-32ec-4454-b6ad-ae7b521c4107 ==============================
+[0m17:00:10.076885 [info ] [MainThread]: Running with dbt=1.8.2
+[0m17:00:10.077201 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': '/Users/alex/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt run', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:00:10.077508 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/alex/Library/CloudStorage/GoogleDrive-as@prod4.dev/My Drive/code/case_studies/case-analytics-engineer/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m17:00:10.078245 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.03347017, "process_user_time": 0.540559, "process_kernel_time": 0.068239, "process_mem_max_rss": "99336192", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m17:00:10.078539 [debug] [MainThread]: Command `dbt run` failed at 17:00:10.078494 after 0.03 seconds
+[0m17:00:10.078729 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108ba7010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108bc3dd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10482a9d0>]}
+[0m17:00:10.078894 [debug] [MainThread]: Flushing usage events
+[0m17:00:33.106015 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111fb73d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111fe3b50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11202b310>]}
+
+
+============================== 17:00:33.107984 | 03a2bcc9-612d-415b-8d61-ef90b5cd08da ==============================
+[0m17:00:33.107984 [info ] [MainThread]: Running with dbt=1.8.2
+[0m17:00:33.108326 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/Users/alex/.dbt', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt run', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m17:00:33.108607 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/alex/Library/CloudStorage/GoogleDrive-as@prod4.dev/My Drive/code/case_studies/case-analytics-engineer/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m17:00:33.109363 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.030195376, "process_user_time": 0.542544, "process_kernel_time": 0.072063, "process_mem_max_rss": "99368960", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m17:00:33.109625 [debug] [MainThread]: Command `dbt run` failed at 17:00:33.109579 after 0.03 seconds
+[0m17:00:33.109816 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11202a3d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1120476d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112047590>]}
+[0m17:00:33.109989 [debug] [MainThread]: Flushing usage events
+[0m17:10:26.857884 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10671b110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10678e550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10678eed0>]}
+
+
+============================== 17:10:26.860094 | 1c74d6f2-b07e-4410-bd9f-44e66494b640 ==============================
+[0m17:10:26.860094 [info ] [MainThread]: Running with dbt=1.8.2
+[0m17:10:26.860435 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/alex/.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt init test', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:10:26.865143 [debug] [MainThread]: Starter project path: /Users/alex/.pyenv/versions/3.11.1/lib/python3.11/site-packages/dbt/include/starter_project
+[0m17:10:26.868137 [info ] [MainThread]: 
+Your new dbt project "test" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:10:26.868352 [info ] [MainThread]: Setting up your profile.
+[0m17:11:05.390621 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109afa210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109afacd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109b2ebd0>]}
+
+
+============================== 17:11:05.392551 | dd264294-ae1a-49b1-9548-aaa72b90ebca ==============================
+[0m17:11:05.392551 [info ] [MainThread]: Running with dbt=1.8.2
+[0m17:11:05.392878 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/alex/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init test', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:11:05.396890 [debug] [MainThread]: Starter project path: /Users/alex/.pyenv/versions/3.11.1/lib/python3.11/site-packages/dbt/include/starter_project
+[0m17:11:05.399534 [info ] [MainThread]: 
+Your new dbt project "test" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:11:05.399777 [info ] [MainThread]: Setting up your profile.
+[0m17:11:58.561123 [info ] [MainThread]: Profile test written to /Users/alex/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:11:58.565362 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 53.202354, "process_user_time": 1.375211, "process_kernel_time": 1.477241, "process_mem_max_rss": "163643392", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m17:11:58.566202 [debug] [MainThread]: Command `dbt init` succeeded at 17:11:58.566075 after 53.20 seconds
+[0m17:11:58.567572 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109b4b510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a9f9590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12e9aec50>]}
+[0m17:11:58.568481 [debug] [MainThread]: Flushing usage events
+[0m17:13:16.110823 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109281d50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1092fa050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1092faa50>]}
+
+
+============================== 17:13:16.112740 | 76f7e66e-835c-495b-96e1-b62466076a6b ==============================
+[0m17:13:16.112740 [info ] [MainThread]: Running with dbt=1.8.2
+[0m17:13:16.113073 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/alex/.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init solution', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m17:13:16.117011 [debug] [MainThread]: Starter project path: /Users/alex/.pyenv/versions/3.11.1/lib/python3.11/site-packages/dbt/include/starter_project
+[0m17:13:16.120273 [info ] [MainThread]: 
+Your new dbt project "solution" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:13:16.120532 [info ] [MainThread]: Setting up your profile.
+[0m17:13:22.268703 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 6.18526, "process_user_time": 0.548774, "process_kernel_time": 0.072644, "process_mem_max_rss": "100646912", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m17:13:22.270778 [debug] [MainThread]: Command `dbt init` succeeded at 17:13:22.270536 after 6.19 seconds
+[0m17:13:22.271654 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109281f90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1092faa50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104f7ab10>]}
+[0m17:13:22.272339 [debug] [MainThread]: Flushing usage events

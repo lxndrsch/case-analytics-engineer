@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "solution"
+version = "0.1.0"
+description = ""
+authors = ["lxndrsch <as@prod4.dev>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+dbt-core = "^1.8.2"
+dbt-snowflake = "^1.8.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
