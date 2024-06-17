@@ -6,10 +6,6 @@ Note 3: The solution ignores mutability, so reports might change retroactively. 
 a. Ensure data is immutable (e.g., event-based Snowplow).
 b. Consume models from snapshots.
 
-3. The data is available as CSV files in the `data/` directory, or as a SQLite database `data.sqlite` with the data already pre-populated into tables.
-
-   You can choose to directly use the SQLite database, or load the CSV files into a database of your choice, e.g. BigQuery or PostgreSQL. 
-
 ### Solution:
 I had limited experience with SQLite, and encountered an issue when attempting to connect with dbt. Specifically, the problem arose in the following files:
 macros/materializations/models/table/table.sql
