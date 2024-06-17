@@ -10,7 +10,12 @@ customer_first_purchase as (
     group by customer_id
 )
 
-select * 
+select 
+    dc.country, 
+    cal.*,
+    cfp.*
 from calendar cal
 left join customer_first_purchase cfp
     on cal.date_month = date_trunc("month", cfp.first_order_date)
+join dim_customers dc
+    on cfp.customer_id = dc.customer_id

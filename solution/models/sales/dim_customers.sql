@@ -1,10 +1,18 @@
-with cte_customer_agg as (
+with cte_customer_orders_agg as (
     select
         customer_id,
         count(distinct order_id) as num_orders,
-        max(unit_price) as max_order_value,
-        sum(unit_price) as total_revenue
+        sum(unit_price * quantity) as total_revenue_per_order
     from {{ ref('fct_sales') }}
+    group by customer_id, order_id
+),
+cte_customer_agg as (
+    select
+        customer_id,
+        count(distinct order_id) as num_orders,
+        max(total_revenue_per_order) as max_order_value,
+        sum(total_revenue_per_order) as total_revenue
+    from cte_customer_orders_agg
     group by customer_id
 )
 
