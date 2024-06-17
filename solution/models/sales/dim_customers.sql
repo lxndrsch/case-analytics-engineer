@@ -1,7 +1,7 @@
 with cte_customer_orders_agg as (
     select
         customer_id,
-        count(distinct order_id) as num_orders,
+        order_id,
         sum(unit_price * quantity) as total_revenue_per_order
     from {{ ref('fct_sales') }}
     group by customer_id, order_id
